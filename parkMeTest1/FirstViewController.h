@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBXMapKit.h"
+#import <MapBox/MapBox.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <MKMapViewDelegate>
+@property (strong, nonatomic) IBOutlet MBXMapView *mapView;
 
 @end

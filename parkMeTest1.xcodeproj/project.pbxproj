@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040F2C731826521B00E669C1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F2C721826521B00E669C1 /* libsqlite3.dylib */; };
+		040F2C79182764F500E669C1 /* MBXMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F2C77182764F500E669C1 /* MBXMapKit.m */; };
+		041AC292181F29B100EF219B /* text-list.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AC291181F29B100EF219B /* text-list.png */; };
+		041AC29A181F526A00EF219B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041AC299181F526A00EF219B /* SWRevealViewController.m */; };
+		041AC2A4181F54D000EF219B /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041AC2A3181F54D000EF219B /* SideBarViewController.m */; };
+		041AC2A6181F5BF800EF219B /* line_normal_begin.png in Resources */ = {isa = PBXBuildFile; fileRef = 041AC2A5181F5BF800EF219B /* line_normal_begin.png */; };
+		04272932182382B200119B62 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04272931182382B200119B62 /* InfoWindow.xib */; };
+		042729341823832800119B62 /* customgps1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042729331823832800119B62 /* customgps1.png */; };
+		042729371823D5DF00119B62 /* CustomInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 042729361823D5DF00119B62 /* CustomInfoWindow.m */; };
 		0469793C18177A2600DF1554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469793B18177A2600DF1554 /* Foundation.framework */; };
 		0469793E18177A2600DF1554 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469793D18177A2600DF1554 /* CoreGraphics.framework */; };
 		0469794018177A2600DF1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469793F18177A2600DF1554 /* UIKit.framework */; };
 		0469794618177A2600DF1554 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0469794418177A2600DF1554 /* InfoPlist.strings */; };
 		0469794818177A2600DF1554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469794718177A2600DF1554 /* main.m */; };
 		0469794C18177A2600DF1554 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469794B18177A2600DF1554 /* AppDelegate.m */; };
-		0469794F18177A2600DF1554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0469794D18177A2600DF1554 /* Main.storyboard */; };
 		0469795218177A2600DF1554 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469795118177A2600DF1554 /* FirstViewController.m */; };
 		0469795518177A2600DF1554 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469795418177A2600DF1554 /* SecondViewController.m */; };
 		0469795718177A2600DF1554 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0469795618177A2600DF1554 /* Images.xcassets */; };
@@ -22,6 +30,21 @@
 		0469796018177A2600DF1554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469793F18177A2600DF1554 /* UIKit.framework */; };
 		0469796818177A2600DF1554 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0469796618177A2600DF1554 /* InfoPlist.strings */; };
 		0469796A18177A2600DF1554 /* parkMeTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469796918177A2600DF1554 /* parkMeTest1Tests.m */; };
+		0469797418177C2100DF1554 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469797318177C2100DF1554 /* CoreLocation.framework */; };
+		0469797618177C2700DF1554 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469797518177C2700DF1554 /* MapKit.framework */; };
+		047809201817979F00DC830F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0478091F1817979F00DC830F /* AVFoundation.framework */; };
+		04780922181797A500DC830F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04780921181797A500DC830F /* CoreData.framework */; };
+		04780924181797C000DC830F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04780923181797C000DC830F /* CoreText.framework */; };
+		04780926181797CA00DC830F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04780925181797CA00DC830F /* GLKit.framework */; };
+		04780928181797D800DC830F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04780927181797D800DC830F /* ImageIO.framework */; };
+		0478092C181797F000DC830F /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0478092B181797F000DC830F /* libicucore.dylib */; };
+		0478092E1817980200DC830F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0478092D1817980200DC830F /* libz.dylib */; };
+		047809301817980B00DC830F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0478092F1817980B00DC830F /* OpenGLES.framework */; };
+		047809321817981300DC830F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047809311817981300DC830F /* QuartzCore.framework */; };
+		047809341817981A00DC830F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047809331817981900DC830F /* SystemConfiguration.framework */; };
+		047809A518188C7A00DC830F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 047809A418188C7A00DC830F /* libc++.dylib */; };
+		04AFAFE718189DB0000A78FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AFAFE618189DAF000A78FE /* Main.storyboard */; };
+		04F05E3E1828A284005025FC /* MapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F05E3D1828A284005025FC /* MapBox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040F2C721826521B00E669C1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		040F2C77182764F500E669C1 /* MBXMapKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXMapKit.m; sourceTree = "<group>"; };
+		040F2C78182764F500E669C1 /* MBXMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXMapKit.h; sourceTree = "<group>"; };
+		041AC291181F29B100EF219B /* text-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list.png"; sourceTree = "<group>"; };
+		041AC298181F526A00EF219B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		041AC299181F526A00EF219B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		041AC2A2181F54D000EF219B /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		041AC2A3181F54D000EF219B /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		041AC2A5181F5BF800EF219B /* line_normal_begin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line_normal_begin.png; path = ../parkMeTest1/line_normal_begin.png; sourceTree = "<group>"; };
+		04272931182382B200119B62 /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		042729331823832800119B62 /* customgps1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customgps1.png; sourceTree = "<group>"; };
+		042729351823D5DF00119B62 /* CustomInfoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInfoWindow.h; sourceTree = "<group>"; };
+		042729361823D5DF00119B62 /* CustomInfoWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInfoWindow.m; sourceTree = "<group>"; };
 		0469793818177A2600DF1554 /* parkMeTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkMeTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0469793B18177A2600DF1554 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0469793D18177A2600DF1554 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,7 +81,6 @@
 		0469794918177A2600DF1554 /* parkMeTest1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "parkMeTest1-Prefix.pch"; sourceTree = "<group>"; };
 		0469794A18177A2600DF1554 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0469794B18177A2600DF1554 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0469794E18177A2600DF1554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0469795018177A2600DF1554 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		0469795118177A2600DF1554 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		0469795318177A2600DF1554 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -56,6 +91,21 @@
 		0469796518177A2600DF1554 /* parkMeTest1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parkMeTest1Tests-Info.plist"; sourceTree = "<group>"; };
 		0469796718177A2600DF1554 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0469796918177A2600DF1554 /* parkMeTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parkMeTest1Tests.m; sourceTree = "<group>"; };
+		0469797318177C2100DF1554 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0469797518177C2700DF1554 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0478091F1817979F00DC830F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04780921181797A500DC830F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04780923181797C000DC830F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		04780925181797CA00DC830F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		04780927181797D800DC830F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0478092B181797F000DC830F /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		0478092D1817980200DC830F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0478092F1817980B00DC830F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		047809311817981300DC830F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		047809331817981900DC830F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		047809A418188C7A00DC830F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		04AFAFE618189DAF000A78FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		04F05E3D1828A284005025FC /* MapBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapBox.framework; path = ../../../../Downloads/MapBox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +113,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F05E3E1828A284005025FC /* MapBox.framework in Frameworks */,
+				040F2C731826521B00E669C1 /* libsqlite3.dylib in Frameworks */,
+				047809A518188C7A00DC830F /* libc++.dylib in Frameworks */,
+				047809341817981A00DC830F /* SystemConfiguration.framework in Frameworks */,
+				047809321817981300DC830F /* QuartzCore.framework in Frameworks */,
+				047809301817980B00DC830F /* OpenGLES.framework in Frameworks */,
+				0478092E1817980200DC830F /* libz.dylib in Frameworks */,
+				0478092C181797F000DC830F /* libicucore.dylib in Frameworks */,
+				04780928181797D800DC830F /* ImageIO.framework in Frameworks */,
+				04780926181797CA00DC830F /* GLKit.framework in Frameworks */,
+				04780924181797C000DC830F /* CoreText.framework in Frameworks */,
+				0469797418177C2100DF1554 /* CoreLocation.framework in Frameworks */,
+				04780922181797A500DC830F /* CoreData.framework in Frameworks */,
+				047809201817979F00DC830F /* AVFoundation.framework in Frameworks */,
+				0469797618177C2700DF1554 /* MapKit.framework in Frameworks */,
 				0469793E18177A2600DF1554 /* CoreGraphics.framework in Frameworks */,
 				0469794018177A2600DF1554 /* UIKit.framework in Frameworks */,
 				0469793C18177A2600DF1554 /* Foundation.framework in Frameworks */,
@@ -82,11 +147,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041AC290181F292200EF219B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				041AC2A5181F5BF800EF219B /* line_normal_begin.png */,
+				042729331823832800119B62 /* customgps1.png */,
+				041AC291181F29B100EF219B /* text-list.png */,
+			);
+			name = Images;
+			path = parkMeTest1Tests;
+			sourceTree = "<group>";
+		};
 		0469792F18177A2600DF1554 = {
 			isa = PBXGroup;
 			children = (
 				0469794118177A2600DF1554 /* parkMeTest1 */,
 				0469796318177A2600DF1554 /* parkMeTest1Tests */,
+				041AC290181F292200EF219B /* Images */,
 				0469793A18177A2600DF1554 /* Frameworks */,
 				0469793918177A2600DF1554 /* Products */,
 			);
@@ -104,6 +181,21 @@
 		0469793A18177A2600DF1554 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04F05E3D1828A284005025FC /* MapBox.framework */,
+				040F2C721826521B00E669C1 /* libsqlite3.dylib */,
+				047809A418188C7A00DC830F /* libc++.dylib */,
+				047809331817981900DC830F /* SystemConfiguration.framework */,
+				047809311817981300DC830F /* QuartzCore.framework */,
+				0478092F1817980B00DC830F /* OpenGLES.framework */,
+				0478092D1817980200DC830F /* libz.dylib */,
+				0478092B181797F000DC830F /* libicucore.dylib */,
+				04780927181797D800DC830F /* ImageIO.framework */,
+				04780925181797CA00DC830F /* GLKit.framework */,
+				04780923181797C000DC830F /* CoreText.framework */,
+				04780921181797A500DC830F /* CoreData.framework */,
+				0478091F1817979F00DC830F /* AVFoundation.framework */,
+				0469797518177C2700DF1554 /* MapKit.framework */,
+				0469797318177C2100DF1554 /* CoreLocation.framework */,
 				0469793B18177A2600DF1554 /* Foundation.framework */,
 				0469793D18177A2600DF1554 /* CoreGraphics.framework */,
 				0469793F18177A2600DF1554 /* UIKit.framework */,
@@ -115,9 +207,18 @@
 		0469794118177A2600DF1554 /* parkMeTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				040F2C78182764F500E669C1 /* MBXMapKit.h */,
+				040F2C77182764F500E669C1 /* MBXMapKit.m */,
+				04272931182382B200119B62 /* InfoWindow.xib */,
+				042729351823D5DF00119B62 /* CustomInfoWindow.h */,
+				042729361823D5DF00119B62 /* CustomInfoWindow.m */,
+				041AC298181F526A00EF219B /* SWRevealViewController.h */,
+				041AC299181F526A00EF219B /* SWRevealViewController.m */,
+				04AFAFE618189DAF000A78FE /* Main.storyboard */,
 				0469794A18177A2600DF1554 /* AppDelegate.h */,
 				0469794B18177A2600DF1554 /* AppDelegate.m */,
-				0469794D18177A2600DF1554 /* Main.storyboard */,
+				041AC2A2181F54D000EF219B /* SideBarViewController.h */,
+				041AC2A3181F54D000EF219B /* SideBarViewController.m */,
 				0469795018177A2600DF1554 /* FirstViewController.h */,
 				0469795118177A2600DF1554 /* FirstViewController.m */,
 				0469795318177A2600DF1554 /* SecondViewController.h */,
@@ -235,7 +336,11 @@
 			files = (
 				0469795718177A2600DF1554 /* Images.xcassets in Resources */,
 				0469794618177A2600DF1554 /* InfoPlist.strings in Resources */,
-				0469794F18177A2600DF1554 /* Main.storyboard in Resources */,
+				041AC2A6181F5BF800EF219B /* line_normal_begin.png in Resources */,
+				041AC292181F29B100EF219B /* text-list.png in Resources */,
+				04272932182382B200119B62 /* InfoWindow.xib in Resources */,
+				04AFAFE718189DB0000A78FE /* Main.storyboard in Resources */,
+				042729341823832800119B62 /* customgps1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +361,10 @@
 			files = (
 				0469795518177A2600DF1554 /* SecondViewController.m in Sources */,
 				0469794C18177A2600DF1554 /* AppDelegate.m in Sources */,
+				042729371823D5DF00119B62 /* CustomInfoWindow.m in Sources */,
+				040F2C79182764F500E669C1 /* MBXMapKit.m in Sources */,
+				041AC29A181F526A00EF219B /* SWRevealViewController.m in Sources */,
+				041AC2A4181F54D000EF219B /* SideBarViewController.m in Sources */,
 				0469795218177A2600DF1554 /* FirstViewController.m in Sources */,
 				0469794818177A2600DF1554 /* main.m in Sources */,
 			);
@@ -286,14 +395,6 @@
 				0469794518177A2600DF1554 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0469794D18177A2600DF1554 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0469794E18177A2600DF1554 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		0469796618177A2600DF1554 /* InfoPlist.strings */ = {
@@ -384,9 +485,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mac/Desktop/Xcode/Joel\\ Projects/parkMeTest1",
+					/Users/mac/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parkMeTest1/parkMeTest1-Prefix.pch";
 				INFOPLIST_FILE = "parkMeTest1/parkMeTest1-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mac/Desktop/Xcode/Joel\\ Projects/parkMeTest1/MapBox-iOS-SDK/MapView/Map/GRMustache/lib",
+					"/Users/mac/Desktop/Xcode/Joel\\ Projects/parkMeTest1/MapBox-iOS-SDK/Proj4",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,9 +510,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mac/Desktop/Xcode/Joel\\ Projects/parkMeTest1",
+					/Users/mac/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "parkMeTest1/parkMeTest1-Prefix.pch";
 				INFOPLIST_FILE = "parkMeTest1/parkMeTest1-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mac/Desktop/Xcode/Joel\\ Projects/parkMeTest1/MapBox-iOS-SDK/MapView/Map/GRMustache/lib",
+					"/Users/mac/Desktop/Xcode/Joel\\ Projects/parkMeTest1/MapBox-iOS-SDK/Proj4",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +591,7 @@
 				0469796F18177A2600DF1554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0469797018177A2600DF1554 /* Build configuration list for PBXNativeTarget "parkMeTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +600,7 @@
 				0469797218177A2600DF1554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
